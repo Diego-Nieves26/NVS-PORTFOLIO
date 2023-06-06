@@ -35,6 +35,8 @@ const HomePhrase = () => {
             <span>{useMath(indexPhrase + 1, indexDice)}</span>
             <button
               className="flex__center"
+              aria-label="Boton Dado"
+              title="Boton Dado"
               onClick={() => {
                 setIndexDice(useRandom(1, 6));
                 setIndexPhrase(useRandom(0, ramdomPhrase.length - 1));

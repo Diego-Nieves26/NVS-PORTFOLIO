@@ -18,6 +18,7 @@ const MenuToggle = ({ toggle }) => (
   <button
     onClick={toggle}
     className="nav__button flex__center"
+    aria-label="Menu Hamburguesa"
     title="Menu Hamburguesa"
   >
     <svg width="35" height="35" viewBox="0 0 23 23">

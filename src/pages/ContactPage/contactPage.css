@@ -1,0 +1,138 @@
+.contact__page_container {
+  overflow: hidden;
+}
+
+.contact__container {
+  background-color: var(--secondary-color);
+  width: 80%;
+  margin: 150px auto 50px;
+  padding: 20px;
+  position: relative;
+  z-index: var(--z-1);
+  transition: all 0.3s cubic-bezier(0.17, 0.55, 0.55, 1) 1s;
+}
+
+.contact__container > h2 {
+  text-align: center;
+  font-size: var(--size-2);
+}
+
+.contact__emoji {
+  width: 100%;
+  max-width: 120px;
+  margin: 20px auto;
+}
+
+.contact__container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  width: 100%;
+}
+
+.container__input {
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0 0 4px 0;
+  z-index: var(--z-1);
+  font-size: var(--size-5);
+  width: 100%;
+}
+
+.container__input::before {
+  content: "";
+  width: 110%;
+  aspect-ratio: 1;
+  position: absolute;
+  inset: 0 0 0 0;
+  margin: auto;
+  animation: AnimationInput 2.5s ease-in-out infinite;
+  z-index: -1;
+  background-image: conic-gradient(
+    from 0deg at 50% 50%,
+    #073aff00 0%,
+    var(--alert-color) 25%,
+    #073aff00 25%
+  );
+}
+
+.container__input > input,
+.container__input > textarea {
+  width: 210px;
+  height: 50px;
+  font-size: inherit;
+  color: var(--tertiary-color);
+  border: none;
+  padding: 12px;
+  background-color: var(--secondary-color);
+  outline: none;
+}
+
+.container__input:nth-child(3) > textarea {
+  height: 100px;
+  resize: none;
+}
+
+@keyframes AnimationInput {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.list__contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 80%;
+  margin: 0 auto 100px;
+}
+
+.list__contact > li {
+  min-width: 100%;
+  padding: 20px;
+  background-color: var(--secondary-color);
+  z-index: var(--z-1);
+  overflow: hidden;
+  position: relative;
+  justify-content: flex-start;
+}
+
+.list__contact > li a {
+  color: var(--tertiary-color);
+}
+
+.btn__copy {
+  position: absolute;
+  right: 1.2rem;
+  padding: 3px 2px;
+  border: 1px solid var(--tertiary-color);
+  background: transparent;
+  border: none;
+}
+
+@media (min-width: 640px) {
+  .container__input > input,
+  .container__input > textarea {
+    width: 510px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .contact__page_container {
+    display: grid;
+    grid-template-columns: 60% 30%;
+    padding-top: 100px;
+  }
+
+  .contact__container {
+    margin: 0 auto 50px;
+  }
+}

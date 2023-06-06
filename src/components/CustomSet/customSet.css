@@ -1,0 +1,30 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  background-color: var(--black-opacity);
+  z-index: var(--z-6);
+}
+
+.backdrop__close {
+  position: absolute;
+  inset: 0;
+}
+
+.custom__set_container {
+  z-index: var(--z-6);
+  width: 90%;
+  padding: 20px;
+  background-color: var(--secondary-color);
+  flex-direction: column;
+  gap: 20px;
+}
+
+.custom__set_select {
+  width: 100%;
+}
+
+.custom__set_select > div {
+  width: 100%;
+  gap: 30px;
+  margin: 20px 0;
+}

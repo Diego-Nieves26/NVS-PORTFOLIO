@@ -1,0 +1,121 @@
+{
+  "navbar": {
+    "links": {
+      "home": "Inicio",
+      "information": "Informacion",
+      "projects": "Proyectos",
+      "contact": "Contactame"
+    },
+    "sound": "Sonido"
+  },
+  "footer": {
+    "fired": "Gracias por la visita",
+    "reserved": "Todos los derechos reservados",
+    "networks": "Redes"
+  },
+  "captions": {
+    "projects": "Proyectos",
+    "aboutMe": "Sobre mi",
+    "iUse": "Utilizo",
+    "daysICode": "Programación diaria",
+    "randomPhrase": "Cosas ramdom sobre mi"
+  },
+  "sentences": {
+    "one": "Si se puede imaginar se puede programar.",
+    "two": "La programación es el arte de controlar la complejidad",
+    "three": "La solución más simple suele ser la mejor.",
+    "four": "Programar es pensar, no escribir código."
+  },
+  "buttons": {
+    "send": "Enviar",
+    "plus": "Ver Mas",
+    "details": "Detalles",
+    "cv": "Resumen",
+    "backToHome": "Regresas al inicio"
+  },
+  "home": {
+    "header": {
+      "title": "Dev Frontend"
+    },
+    "aboutMe": {
+      "paragraphOne": "Hola, soy desarrollador web enfocado en el frontend, amante de los videojuegos y aficionado de las películas. Siempre dispuesto a aprender nuevas tecnologías.",
+      "paragraphTwo": "Soy una persona autodidacta, proactiva, eficaz, que ama la tecnología. Actualmente, dedico mi tiempo a estudiar y desarrollar aplicaciones web. Me encantan los desafíos.",
+      "paragraphThree": "Me considero una persona creativa que puede adaptarse a cualquier espacio. Además, mis prioridades organizacionales y de comunicación significan que puedo funcionar bajo presión."
+    }
+  },
+  "information": {
+    "subtitles": {
+      "one": "Por sea caso",
+      "two": "Habilidades tecnicas",
+      "three": "Yo me considero",
+      "four": "Mis Metas"
+    },
+    "education": {
+      "certus": "Desarrollo de aplicaciones móviles con Flutter.",
+      "academlo": "Programación Web Full-Stack y Ciencias de Computación.",
+      "autodidact": "Diferentes conceptos de la Programación."
+    },
+
+    "technicalSkills": {
+      "subtitles": {
+        "one": "Desarrollo FrontEnd",
+        "two": "Desarrollo BackEnd",
+        "three": "Herramientas"
+      },
+      "levels": {
+        "one": "Avanzado",
+        "two": "Intermedio",
+        "three": "Principiante",
+        "four": "Novato",
+        "five": "Aprendiendo"
+      }
+    },
+    "goals": {
+      "one": "Quiero aprender desarrollo de videojuegos e inteligencia artificial.",
+      "two": "Talvez viajar por el mundo y conocer nuevas ideas.",
+      "three": "Me gustaria conseguir una casa y tener una vejez tranquila."
+    },
+    "about": {
+      "per": {
+        "one": "Una persona",
+        "two": "que es",
+        "three": "con sus metas. Con buena",
+        "four": "social, que siempre muestra",
+        "five": "Ademas de",
+        "six": "que aprende",
+        "seven": "Y muy"
+      },
+      "words": {
+        "one": "proactiva",
+        "two": "perseverante",
+        "three": "comunicacion",
+        "four": "buena actitud",
+        "five": "amable",
+        "six": "empatico",
+        "seven": "adaptable",
+        "eight": "rapido",
+        "nine": "organizado"
+      }
+    }
+  },
+  "contact": {
+    "text": "¿Te gustaría obtener más información sobre cualquiera de mis servicios? ¿Quieres darme tu opinion? ¡En los siguientes medios podras hacerlo con la seguridad de que te responda.!",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo",
+      "message": "Mensaje"
+    }
+  },
+  "phrases": {
+    "one": "La Coca-Cola es súper rica y siempre me hace feliz cuando la tomo.",
+    "two": "Me encantan varias series como Naruto, Game Of Thrones, Transformers, Harry Potter y más.",
+    "three": "A veces me da por tocar instrumentos, me gusta sentir el ritmo y dejar fluir la música.",
+    "four": "La pizza me vuelve loco, es mi comida preferida, me hace feliz en cada bocado.",
+    "five": "Me encanta la comida grasosa, es mi perdición culinaria, me hace sentir satisfecho y feliz.",
+    "six": "Me gustan bandas como Black Sabbath, Ozzy Osbourne, Iron Maiden, AC/DC, entre otras. Son brutales.",
+    "seven": "Cuando era niño, me la pasaba jugando con legos, construyendo cosas raras y dejando volar mi imaginación.",
+    "eight": "Cuando me meto a nadar, me ahogo porque nunca aprendí bien a nadar del todo.",
+    "nine": "A veces me despisto en la cocina, me llama mucho la atención el rollo de la panadería.",
+    "ten": "Cuando programo me gusta escuchar música y a veces le doy al teclado al ritmo."
+  }
+}

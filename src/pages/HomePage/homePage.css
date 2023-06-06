@@ -1,0 +1,360 @@
+.home__slider_container {
+  background-color: var(--primary-color);
+  position: relative;
+  padding: 0 0 460px 0;
+}
+
+.project__home_list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.slider__projects_home {
+  width: 100%;
+  overflow: visible !important;
+}
+
+.slider__projects_home div {
+  width: auto;
+}
+
+/*Slider*/
+.home__slider_container .slider img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.certificado__slider {
+  max-height: 370px;
+}
+
+.slider_home {
+  height: 370px;
+  margin-top: 100px;
+}
+
+.slider_home .swiper-slide {
+  max-width: 700px;
+}
+
+.swiper-pagination {
+  max-width: 100px;
+  background-color: var(--tertiary-color);
+  padding: 0.5rem 0;
+  margin: auto;
+  right: 0;
+  border-radius: 10px;
+}
+
+.swiper-pagination-bullet {
+  background: var(--secondary-color);
+}
+
+/*About*/
+
+.about__me_container {
+  background-color: var(--secondary-color);
+  position: relative;
+  padding: 460px 0;
+}
+
+.about__me_container--div {
+  width: 100%;
+  gap: 70px;
+  max-width: 700px;
+  margin: auto;
+  flex-direction: column;
+}
+
+.about__me_container--card {
+  width: 100%;
+  position: relative;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.about__me_container--card p {
+  background-color: var(--tertiary-color);
+  width: 60%;
+  color: var(--secondary-color);
+  transition: all 0.3s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s;
+}
+
+.video__container {
+  padding: 460px 0;
+  background-image: url("../../assets/other-assets/gif/07.gif");
+  background-size: cover;
+  filter: grayscale(80%);
+}
+
+.letter__container {
+  padding: 460px 0;
+  background-color: var(--primary-color);
+}
+
+.i-use-list {
+  flex-direction: column;
+  padding: 20px;
+  gap: 40px;
+}
+
+.i-use-list > li {
+  background-color: var(--secondary-color);
+  padding: 20px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.i-use-list > li img {
+  max-width: 50%;
+}
+
+.exercise-card {
+  max-width: 700px;
+  width: 90%;
+  border: 5px solid var(--tertiary-color);
+  margin: 0 auto;
+  padding: 20px;
+  background-color: var(--secondary-color);
+  position: relative;
+  flex-direction: column;
+}
+
+.exercise-card-file {
+  position: absolute;
+  left: -5%;
+  bottom: -20%;
+  background-color: black;
+  aspect-ratio: 1;
+  width: 200px;
+  border-radius: 50%;
+  color: var(--secondary-color);
+  padding: 20px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.exercise-card-file i {
+  position: absolute;
+  font-size: 100px;
+  color: var(--white-opacity);
+}
+
+.exercise-card-file .exercise__click-me {
+  width: 5px;
+  border: 2px solid #fff;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  margin-top: 20px;
+  animation: clickMe 1.3s infinite alternate-reverse;
+}
+
+@keyframes clickMe {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(4);
+
+    border: 0.5px solid #ffffff36;
+  }
+}
+
+.exercise-card > p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.exercise-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 470px;
+}
+
+.exercise-card form img {
+  display: none;
+}
+
+.exercise-card form label {
+  margin-top: 20px;
+}
+
+.exercise-card form input,
+.exercise-card form textarea {
+  border: none;
+  border-bottom: 2px solid #000;
+  border-right: 2px solid #000;
+  outline: none;
+  padding: 10px;
+  transition: 0.1s;
+}
+
+.exercise-card form input:focus,
+.exercise-card form textarea:focus {
+  border-bottom: 5px solid #000;
+  border-right: 5px solid #000;
+}
+
+.exercise-card form div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ramdom__phrase_home-container {
+  margin: 460px auto 0 !important;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  gap: 20px;
+}
+
+.ramdom__phrase_home {
+  padding: 40px 20px;
+  max-width: 840px;
+  min-width: 70%;
+}
+
+.ramdom__phrase_home > div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ramdom__phrase_home > div button {
+  font-size: 2.5rem;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.ramdom__phrase_title {
+  font-size: 3rem;
+}
+
+.ramdom__phrase_home > div h4 {
+  font-size: 2.5rem;
+}
+
+.ramdom__phrase_home > div h4 span {
+  color: var(--primary-color);
+}
+
+.ramdom__phrase_home > article {
+  text-align: justify;
+  font-size: 1.8rem;
+  margin-top: 20px;
+}
+
+.ramdom__phrase__math {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ramdom__phrase__math > span {
+  font-size: 2rem;
+}
+
+.buttons__slider_projects {
+  display: none;
+}
+.buttons__slider_projects > button {
+  background-color: transparent;
+  border: 2px solid var(--tertiary-color);
+  aspect-ratio: 1;
+  width: 50px;
+  margin: 20px 0 0;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.buttons__slider_projects > button:hover {
+  background-color: var(--secondary-color);
+  color: var(--tertiary-color);
+}
+
+@media (min-width: 640px) {
+  .i-use-list {
+    flex-direction: row;
+  }
+  .about__me_container--card {
+    overflow-x: visible;
+  }
+
+  .about__me_container--card p {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .project__home_list {
+    width: 100%;
+  }
+
+  .flex__center.btn-left {
+    justify-content: space-between;
+    padding: 0 0 0 20px;
+  }
+
+  .buttons__slider_projects {
+    display: flex;
+    gap: 20px;
+  }
+
+  .ramdom__phrase_home-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .ramdom__phrase_home {
+    border: 5px solid var(--tertiary-color);
+  }
+}
+
+@media (min-width: 1000px) {
+  .contact__page_container {
+    display: grid;
+    grid-template-columns: 60% 30%;
+    padding-top: 100px;
+  }
+
+  .contact__container {
+    margin: 0 auto 50px;
+  }
+
+  .exercise-card-file {
+    left: -15%;
+    bottom: auto;
+  }
+
+  .exercise-card > p {
+    font-size: 2.7rem;
+    line-height: 2.7rem;
+  }
+
+  .exercise-card form img {
+    display: block;
+
+    max-width: 200px;
+    position: absolute;
+    right: -2%;
+    bottom: 0;
+  }
+
+  .exercise-card form div {
+    justify-content: space-between;
+    margin-top: 100px;
+  }
+}

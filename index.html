@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diego Nieves | FrontEnd Developer</title>
+    <meta
+      name="description"
+      content="Desarrollador web FrontEnd usando tecnologias como ReactJS, JavaSacript, HTML, CSS, Flutter, Dart, Conocimientos de backend con Python usando Django, NodeJS usando Express, manejo de bases de datos como PostgreSQL, MySql, MongoDB, Firebise, Supabase"
+    />
+    <meta
+      name="keywords"
+      content="Desarrollador Web, Programador, Desarrollador FrontEnd, Desarrollador ReactJS, Desarrollador JavaSacript"
+    />
+    <meta name="author" content="Diego Nieves | Desarrollador FrontEnd" />
+    <meta name="copyright" content="Diego Nieves | Desarrollador FrontEnd" />
+    <meta name="robots" content="index" />
+    <title>Diego Nieves | FrontEnd Developer</title>
+    <link rel="icon" href="./public/logo_secondary.webp" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      let pageTitle = document.title;
+
+      window.addEventListener("blur", () => {
+        pageTitle = document.title;
+        document.title = "Vuelve Pronto | DLC";
+      });
+
+      window.addEventListener("focus", () => {
+        document.title = pageTitle;
+      });
+    </script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

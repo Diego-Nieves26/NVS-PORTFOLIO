@@ -1,0 +1,120 @@
+{
+  "navbar": {
+    "links": {
+      "home": "Home",
+      "information": "Information",
+      "projects": "Projects",
+      "contact": "Contact Me"
+    },
+    "sound": "Sound"
+  },
+  "footer": {
+    "fired": "Thanks for the visit",
+    "reserved": "All rights reserved",
+    "networks": "Networks"
+  },
+  "captions": {
+    "projects": "Projects",
+    "aboutMe": "About Me",
+    "iUse": "I Use",
+    "daysICode": "Days I code",
+    "randomPhrase": "Random things about me"
+  },
+  "sentences": {
+    "one": "If you can imagine it, you can program it.",
+    "two": "Programming is the art of controlling complexity.",
+    "three": "The simplest solution is often the best.",
+    "four": "Programming is thinking, not writing code."
+  },
+  "buttons": {
+    "send": "Send",
+    "plus": "See More",
+    "details": "Details",
+    "cv": "Resume",
+    "backToHome": "Back to home"
+  },
+  "home": {
+    "header": {
+      "title": "Frontend Dev"
+    },
+    "aboutMe": {
+      "paragraphOne": "Hi, I'm a frontend focused web developer, game lover and movie buff. Always willing to learn new technologies.",
+      "paragraphTwo": "I am a self-taught, proactive, effective person who loves technology. Currently, I spend my time studying and developing web applications. I love challenges.",
+      "paragraphThree": "I consider myself a creative person who can adapt to any space. Additionally, my organizational and communication priorities mean that I can function under pressure."
+    }
+  },
+  "information": {
+    "subtitles": {
+      "one": "In any case",
+      "two": "Technical skills",
+      "three": "I consider myself",
+      "four": "My Goals"
+    },
+    "education": {
+      "certus": "Mobile app development with flutter.",
+      "academlo": "Fullstack web programming and computer science.",
+      "autodidact": "Different programming concepts."
+    },
+    "technicalSkills": {
+      "subtitles": {
+        "one": "Front End Development",
+        "two": "Back End Development",
+        "three": "Tools"
+      },
+      "levels": {
+        "one": "Advanced",
+        "two": "Intermediate",
+        "three": "Beginner",
+        "four": "Rookie",
+        "five": "Learning"
+      }
+    },
+    "goals": {
+      "one": "I want to learn game development and artificial intelligence.",
+      "two": "Maybe travel the world and meet new ideas.",
+      "three": "I would like to get a house and have a peaceful old age."
+    },
+    "about": {
+      "per": {
+        "one": "A person",
+        "two": "what is",
+        "three": "with your goals. With good",
+        "four": "social, which always shows",
+        "five": "In addition to",
+        "six": "that learns",
+        "seven": "And very"
+      },
+      "words": {
+        "one": "proactive",
+        "two": "persistent",
+        "three": "communication",
+        "four": "good attitude",
+        "five": "gentle",
+        "six": "empathic",
+        "seven": "adaptable",
+        "eight": "fast",
+        "nine": "organized"
+      }
+    }
+  },
+  "contact": {
+    "text": "Would you like more information about any of my services? Do you want to give me your opinion? In the following media you can do it with the assurance that he answers you.!",
+    "form": {
+      "name": "Name",
+      "email": "Mail",
+      "message": "Message"
+    }
+  },
+  "phrases": {
+    "one": "The Coca-Cola is super delicious and always makes me happy when I drink it.",
+    "two": "I love several series like Naruto, Game Of Thrones, Transformers, Harry Potter, and more.",
+    "three": "Sometimes I feel like playing musical instruments, I enjoy feeling the rhythm and letting the music flow.",
+    "four": "Pizza drives me crazy, it's my favorite food, it makes me happy with every bite.",
+    "five": "I love greasy food, it's my culinary downfall, it makes me feel satisfied and happy.",
+    "six": "I like bands like Black Sabbath, Ozzy Osbourne, Iron Maiden, AC/DC, among others. They are awesome",
+    "seven": "When I was a child, I spent my time playing with Legos, building strange things and letting my imagination soar.",
+    "eight": "When I go swimming, I drown because I never fully learned how to swim properly.",
+    "nine": "Sometimes I get distracted in the kitchen, I'm really drawn to the whole bakery scene.",
+    "ten": "When I code, I dig listening to music and sometimes I tap the keyboard to the beat."
+  }
+}

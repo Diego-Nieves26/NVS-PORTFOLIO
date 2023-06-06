@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+@font-face {
+  font-family: NaruFont;
+  src: url("./assets/other-assets/font/njnaruto.ttf");
+}
+
+:root {
+  /* FONT */
+  --main-font: "Bebas Neue", cursive;
+
+  /* COLORS */
+  --primary-color: #fa9427;
+  --secondary-color: #fffdf0;
+  --tertiary-color: #000;
+  --quaternary-color: #e7e600ff;
+  --quinary-color: #b70000ff;
+
+  /* COLOR TRANSPARENT */
+  --black-opacity: rgba(0, 0, 0, 0.7);
+  --white-opacity: rgba(255, 255, 255, 0.3);
+
+  /* FONT SIZES */
+  --size-1: 5rem;
+  --size-2: 3rem;
+  --size-3: 2rem;
+  --size-4: 1.5rem;
+  --size-5: 1rem;
+
+  /* PRIORITY */
+  --z-1: 5;
+  --z-2: 10;
+  --z-3: 15;
+  --z-4: 20;
+  --z-5: 25;
+  --z-6: 25;
+
+  /* BORDER TYPE */
+  --border-type: solid;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: var(--main-font);
+  letter-spacing: 1px;
+}
+
+body {
+  background-color: var(--secondary-color);
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+
+/* CUSTOM SCROLL */
+::-webkit-scrollbar {
+  width: 0.5vw;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--secondary-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 10px;
+}
+
+/* REUTILIZABLE */
+.limit__width {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.flex__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.btn-disable {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.float-anim {
+  animation: float-anim 2.5s infinite linear;
+}
+
+.hover-button:hover {
+  transform: translateY(-5px);
+}
+
+.hover-button:focus {
+  transform: scale(0.9);
+}
+
+img {
+  width: 100%;
+}
+
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: var(--size-3);
+  margin: 0px 0px 20px;
+}
+
+p {
+  padding: 20px;
+  letter-spacing: 2px;
+  line-height: 23px;
+  word-spacing: 0.4rem;
+}
+
+@keyframes float-anim {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-15px) translateX(-5px);
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+}

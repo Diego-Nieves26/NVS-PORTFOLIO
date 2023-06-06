@@ -1,0 +1,11 @@
+.github__calendar_container {
+  width: 100%;
+  padding: 26px;
+}
+
+.react-activity-calendar > footer {
+  padding: 1rem;
+  font-size: 2rem !important;
+  flex-direction: column;
+  gap: 2.5rem;
+}

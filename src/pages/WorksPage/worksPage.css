@@ -1,0 +1,115 @@
+.projects__header {
+  background-color: var(--primary-color);
+  padding: 130px 0 0;
+  z-index: 10;
+  position: relative;
+  overflow: hidden;
+  background-image: url("../../assets/images/background/bg02.webp");
+}
+
+.projects__slider {
+  padding: 50px 0;
+  z-index: var(--z-3);
+  position: relative;
+}
+
+.card__proyects {
+  flex-direction: column;
+  width: 220px !important;
+  height: 350px !important;
+  border: 1px var(--border-type) var(--tertiary-color);
+  margin: 40px auto;
+  transition: 0.3s;
+  background-color: var(--secondary-color);
+}
+
+.card__proyects > img {
+  width: 100%;
+}
+
+.card__header {
+  background-color: var(--tertiary-color);
+  color: var(--secondary-color);
+  padding: 10px;
+  margin: 0 20px;
+  display: block;
+  width: 100%;
+}
+
+.card__header > h4 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  font-weight: 100;
+  font-size: var(--size-3);
+}
+
+.card__header > ul {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  font-size: var(--size-4);
+}
+
+.card__footer {
+  margin: 0 20px;
+}
+
+.card__footer > button {
+  width: 100%;
+  padding: 20px;
+}
+
+.container-progress {
+  height: 10px;
+  border-radius: 2px;
+  background-color: #00000049;
+}
+
+.progress-bar {
+  height: 100%;
+  display: flex;
+  background-color: var(--tertiary-color);
+  align-items: center;
+  transition: width 0.25s;
+  border-radius: 5px;
+  position: relative;
+}
+
+.progress-bar > span {
+  aspect-ratio: 1;
+  width: 30px;
+  background-color: var(--tertiary-color);
+  color: var(--secondary-color);
+  position: absolute;
+  right: -10px;
+  border-radius: 50%;
+}
+
+.progress__section {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+@media (min-width: 1000px) {
+  .card__proyects {
+    margin: 85px 20px 75px;
+    width: 200px !important;
+    height: 330px !important;
+  }
+
+  .card__header,
+  .card__footer > button {
+    max-width: 350px;
+  }
+
+  .projects__slider {
+    padding: 0;
+    margin-top: -50px;
+  }
+
+  .progress__section {
+    margin-top: 100px;
+  }
+}

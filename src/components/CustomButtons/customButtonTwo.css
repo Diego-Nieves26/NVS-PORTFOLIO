@@ -1,0 +1,18 @@
+.custom__button_two {
+  width: 90%;
+  max-width: 400px;
+  height: 100px;
+  text-transform: uppercase;
+  font-size: var(--size-2);
+  background-color: var(--primary-color);
+  border: 4px var(--border-type) var(--tertiary-color);
+  letter-spacing: -0.02em;
+  margin-top: 20px;
+  cursor: pointer;
+  z-index: var(--z-1);
+  transition: 0.3s;
+}
+
+.custom__button_two:hover {
+  transform: scale(1.08);
+}

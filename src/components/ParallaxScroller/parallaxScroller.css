@@ -1,0 +1,66 @@
+.animate_letters_container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 100px !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.animate_letters_container::before,
+.animate_letters_container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 30px; /* Ajusta el ancho del desvanecido según tus necesidades */
+  pointer-events: none;
+  z-index: 100;
+}
+
+.animate_letters_container::before {
+  left: 0;
+  background: linear-gradient(to left, transparent, white);
+}
+
+.animate_letters_container::after {
+  right: 0;
+  background: linear-gradient(to right, transparent, white);
+}
+
+.progress {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: var(--accent);
+  bottom: 100px;
+}
+
+.parallax {
+  overflow: hidden;
+  letter-spacing: -2px;
+  line-height: 1.5;
+  margin: 0;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.parallax .scroller {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: var(--size-2);
+  display: flex;
+  white-space: nowrap;
+  letter-spacing: 5px;
+  display: flex;
+  flex-wrap: nowrap;
+  z-index: var(--z-2);
+}
+
+.parallax span {
+  display: block;
+  margin-right: 30px;
+  color: var(--primary-color);
+}

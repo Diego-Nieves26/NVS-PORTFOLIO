@@ -1,0 +1,32 @@
+.education__letter {
+  width: 100%;
+}
+
+.education__letter span {
+  display: block;
+  width: 140px;
+  text-align: center;
+  font-size: 10px;
+  padding: 3px 10px;
+  border: 1px solid var(--tertiary-color);
+  color: var(--tertiary-color);
+  background-color: var(--secondary-color);
+}
+
+.education__letter h4 {
+  font-size: 14px;
+  margin: 10px 0;
+  color: var(--tertiary-color);
+}
+
+.education__letter h6 {
+  font-size: 12px;
+  margin-left: 10px;
+  color: #8c8888;
+}
+
+.education__letter p {
+  font-size: 14px;
+  color: #b5b5b5;
+  padding: 10px 0 10px 20px !important;
+}

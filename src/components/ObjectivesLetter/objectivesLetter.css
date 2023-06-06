@@ -1,0 +1,13 @@
+.objectives__letter {
+  width: 100%;
+  background-color: var(--secondary-color);
+  min-height: 200px;
+  position: sticky;
+  top: 110px;
+  margin-top: 5rem;
+  font-size: var(--size-3);
+  text-align: center;
+  border: 5px var(--border-type) var(--tertiary-color);
+  padding: 20px;
+  transition: all 0.3s cubic-bezier(0.17, 0.55, 0.55, 1);
+}

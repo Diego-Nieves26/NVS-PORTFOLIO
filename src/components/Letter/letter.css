@@ -1,0 +1,25 @@
+.leeter__decoration {
+  position: relative;
+  z-index: var(--z-1);
+  margin: 0 20px;
+  transition: all 0.3s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s;
+}
+
+.leeter__decoration span {
+  font-size: 200px;
+  color: var(--tertiary-color);
+}
+
+.leeter__decoration > img {
+  width: 170px;
+  position: absolute;
+  transform: perspective(var(--rotate));
+  transition: all 0.3s cubic-bezier(0.17, 0.55, 0.55, 1) 0.7s;
+}
+
+@media (min-width: 1000px) {
+  .leeter__decoration span {
+    font-size: 270px;
+    line-height: 250px;
+  }
+}

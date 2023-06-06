@@ -1,0 +1,30 @@
+.swiper.galerySP {
+  width: 240px;
+  height: 320px;
+}
+
+.galerySP .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  width: 240px;
+  height: 320px;
+  border-radius: 5px;
+}
+
+.galerySP .swiper-slide img {
+  border: 2px solid black;
+  max-width: 100%;
+  max-height: 100%;
+  height: 100%;
+  /* object-fit: contain; */
+  border-radius: 3px;
+  scale: 0.87;
+  transition: transform 0.3s;
+}
+
+.galerySP .swiper-slide:hover img {
+  transform: scale(1.11);
+}

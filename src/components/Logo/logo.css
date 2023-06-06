@@ -1,0 +1,14 @@
+.logo {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  min-width: 100px;
+  min-height: 100px;
+  transition: opacity .03s ease-in-out;
+}
+
+.logo img {
+  width: 100%;
+  object-fit: cover;
+  padding-top: 10px;
+}

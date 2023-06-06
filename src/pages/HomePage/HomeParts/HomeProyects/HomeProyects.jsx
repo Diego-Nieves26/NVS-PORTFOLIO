@@ -54,6 +54,8 @@ const HomeProyects = () => {
           <CustomButtonOne name="plus" task={() => navigate("/works")} />
           <div className="buttons__slider_projects">
             <button
+              aria-label="Boton Proyecto Anterior"
+              title="Boton Proyecto Anterior"
               className={`flex__center ${
                 swiperState?.activeIndex === 0 ? "btn-disable" : ""
               }`}
@@ -62,6 +64,8 @@ const HomeProyects = () => {
               <i className="bx bx-chevron-left"></i>
             </button>
             <button
+              aria-label="Boton Proyecto Posterior"
+              title="Boton Proyecto Posterior"
               className={`flex__center ${
                 actualProyect === 3 ? "btn-disable" : ""
               }`}

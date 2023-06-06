@@ -48,12 +48,12 @@ import DN02 from "./images/personal/DN02.webp";
 import Funko01 from "./images/personal/funko01.webp";
 import Funko02 from "./images/personal/funko02.webp";
 import Funko03 from "./images/personal/funko03.webp";
-import SP01 from "./images/personal/SP01.png";
-import SP02 from "./images/personal/SP02.png";
-import SP03 from "./images/personal/SP03.png";
-import SP04 from "./images/personal/SP04.png";
-import SP05 from "./images/personal/SP05.png";
-import SP06 from "./images/personal/SP06.png";
+import SP01 from "./images/personal/SP01.webp";
+import SP02 from "./images/personal/SP02.webp";
+import SP03 from "./images/personal/SP03.webp";
+import SP04 from "./images/personal/SP04.webp";
+import SP05 from "./images/personal/SP05.webp";
+import SP06 from "./images/personal/SP06.webp";
 
 export default {
   // LOGOS

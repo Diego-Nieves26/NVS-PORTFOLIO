@@ -31,7 +31,8 @@
     "plus": "See More",
     "details": "Details",
     "cv": "Resume",
-    "backToHome": "Back to home"
+    "backToHome": "Back to home",
+    "back": "Back"
   },
   "home": {
     "header": {
@@ -116,5 +117,8 @@
     "eight": "When I go swimming, I drown because I never fully learned how to swim properly.",
     "nine": "Sometimes I get distracted in the kitchen, I'm really drawn to the whole bakery scene.",
     "ten": "When I code, I dig listening to music and sometimes I tap the keyboard to the beat."
+  },
+  "proyectPage": {
+    "title": "Proyect"
   }
 }

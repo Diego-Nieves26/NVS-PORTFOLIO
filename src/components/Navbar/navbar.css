@@ -1,7 +1,7 @@
 .nav__general {
   transition: 0.3s all ease-in-out;
   position: fixed;
-  z-index: 20;
+  z-index: 200;
   top: 0;
   width: 100%;
 }

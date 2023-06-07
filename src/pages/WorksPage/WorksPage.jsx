@@ -1,10 +1,12 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // --------------------------------------------------------------------
 import { Caption, CustomButtonOne, Footer, Navbar } from "../../components";
 import { projectsData } from "../../data/index";
 import useToTop from "../../hooks/useToTop";
+import ReIcon from "./ReIcon/ReIcon";
 
 // CSS
 import "./worksPage.css";
@@ -14,6 +16,9 @@ import "./worksPage.css";
 const WorksPage = () => {
   // WHEN LOADING THE VIEW, SCROLL UP
   useToTop();
+
+  // NAVIGATE
+  const navigate = useNavigate();
 
   // PROGRESS BAR
   const [percent, setPercent] = useState(0);
@@ -77,11 +82,29 @@ const WorksPage = () => {
             ))}
           </Swiper>
           <div className="card__footer flex__center">
-            <CustomButtonOne name="details" />
+            <CustomButtonOne
+              name="details"
+              task={() => navigate(`/works/${activeCard}`)}
+            />
           </div>
         </div>
         <div className="progress__section">
           <div className="container-progress limit__width">
+            <ReIcon
+              iconName="Shape05"
+              initialIndex={1}
+              totalProyects={projectsData.length}
+            />
+            <ReIcon
+              iconName="Shape06"
+              initialIndex={9}
+              totalProyects={projectsData.length}
+            />
+            <ReIcon
+              iconName="Shape07"
+              initialIndex={12}
+              totalProyects={projectsData.length}
+            />
             <div
               style={{ width: percent + "%" }}
               className="progress-bar"

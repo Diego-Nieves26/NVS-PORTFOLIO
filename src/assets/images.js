@@ -17,6 +17,9 @@ import Project05 from "./images/projects/05.webp";
 import Project06 from "./images/projects/06.webp";
 import Project07 from "./images/projects/07.webp";
 import Project08 from "./images/projects/08.webp";
+import Project09 from "./images/projects/09.webp";
+import Project10 from "./images/projects/10.webp";
+import Project11 from "./images/projects/11.webp";
 
 // GIF
 import Gif01 from "./other-assets/gif/01.webp";
@@ -41,6 +44,9 @@ import Shape01 from "./images/shapes/01.webp";
 import Shape02 from "./images/shapes/02.webp";
 import Shape03 from "./images/shapes/03.webp";
 import Shape04 from "./images/shapes/04.webp";
+import Shape05 from "./images/shapes/05.webp";
+import Shape06 from "./images/shapes/06.webp";
+import Shape07 from "./images/shapes/07.webp";
 
 // PERSONAL
 import DN01 from "./images/personal/DN01.webp";
@@ -117,6 +123,18 @@ export default {
     img: Project08,
     info: "Filtro de autos",
   },
+  Project09: {
+    img: Project09,
+    info: "Frases Aleatorias",
+  },
+  Project10: {
+    img: Project10,
+    info: "App del Clima",
+  },
+  Project11: {
+    img: Project11,
+    info: "Rick And Morty APP",
+  },
 
   // GIF
   Gif01: {
@@ -189,6 +207,18 @@ export default {
   Shape04: {
     img: Shape04,
     info: "Movie icon DLC",
+  },
+  Shape05: {
+    img: Shape05,
+    info: "HTML CSS JS icon DLC",
+  },
+  Shape06: {
+    img: Shape06,
+    info: "REACT icon DLC",
+  },
+  Shape07: {
+    img: Shape07,
+    info: "FLUTTER icon DLC",
   },
 
   // PERSONAL

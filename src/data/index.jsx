@@ -206,6 +206,14 @@ const projectsData = [
     description:
       "Aplicacion que clona la pagina principal del motor de busqueda de Google.",
     category: "Front",
+    images: ["01_x2v1ek", "02_xx77sd"],
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/Diego-Nieves26/Google-Clone--.git",
+      },
+      { name: "Preview", link: "https://teal-genie-3c079b.netlify.app/" },
+    ],
     technologies: [
       <i className="bx bxl-html5"></i>,
       <i className="bx bxl-css3"></i>,
@@ -219,8 +227,18 @@ const projectsData = [
     description:
       "Aplicacion que crea contraseñas aleatorias con las diversas caracteristicas que seleccione el usuario.",
     category: "Front",
+    images: ["01_zlcwdl", "02_zxkocs", "03_ityb6t"],
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/Diego-Nieves26/Password-Generator--.git",
+      },
+      {
+        name: "Preview",
+        link: "https://lustrous-fenglisu-41151e.netlify.app/",
+      },
+    ],
     technologies: [
-      ,
       <i className="bx bxl-html5"></i>,
       <i className="bx bxl-css3"></i>,
       <i className="bx bxl-javascript"></i>,
@@ -233,6 +251,17 @@ const projectsData = [
     description:
       "Tienda de productos relacionados con el anime 'Naruto'. Simula un proceso básico de comprar en una tienda online.",
     category: "Front",
+    images: ["03_smndil", "04_bav7fw", "02_bipvf5", "05_nsrki2", "01_yl4rnb"],
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/Diego-Nieves26/Daffy-Store--.git",
+      },
+      {
+        name: "Preview",
+        link: "https://gregarious-klepon-d3ec37.netlify.app",
+      },
+    ],
     technologies: [
       <i className="bx bxl-html5"></i>,
       <i className="bx bxl-css3"></i>,
@@ -246,6 +275,17 @@ const projectsData = [
     description:
       "Esta aplicacion ayuda a encontrar colores exactos de una imagen.",
     category: "Front",
+    images: ["01_rgm8bg", "02_vl8ljc", "03_jxxazu"],
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/Diego-Nieves26/Image-Color-Picker--.git",
+      },
+      {
+        name: "Preview",
+        link: "https://cool-chebakia-8553fe.netlify.app/",
+      },
+    ],
     technologies: [
       <i className="bx bxl-html5"></i>,
       <i className="bx bxl-css3"></i>,
@@ -259,6 +299,17 @@ const projectsData = [
     description:
       "Clon version web del popular juego Simon Says que es un juego de memoria atravez de colores.",
     category: "Front",
+    images: ["02_w4rjyq", "03_m1zj32", "01_r2zafc"],
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/Diego-Nieves26/Simons-Web--.git",
+      },
+      {
+        name: "Preview",
+        link: "https://elaborate-rabanadas-4bc137.netlify.app/",
+      },
+    ],
     technologies: [
       <i className="bx bxl-html5"></i>,
       <i className="bx bxl-css3"></i>,
@@ -272,6 +323,17 @@ const projectsData = [
     description:
       "Realiza un chat falso de Whatsapp agregando los ajustes que el usuario quiera. Se puede descargar el chat generado con la herramienta canvas a travez de una imagen PNG.",
     category: "Front",
+    images: ["03_nfwtba", "01_pprqv7", "02_ncycnb"],
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/Diego-Nieves26/Whatsapp-Chat-Fake--.git",
+      },
+      {
+        name: "Preview",
+        link: "https://sensational-cupcake-2df5d6.netlify.app/",
+      },
+    ],
     technologies: [
       <i className="bx bxl-html5"></i>,
       <i className="bx bxl-css3"></i>,
@@ -286,6 +348,17 @@ const projectsData = [
     description:
       "Encripta y desencripta textos, ayuda a enviar mensajes seguros.",
     category: "Front",
+    images: ["01_j33s50", "02_bcqmd1", "03_ls1tpj"],
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/Diego-Nieves26/Encriptador-de-Textos--.git",
+      },
+      {
+        name: "Preview",
+        link: "https://earnest-eclair-9fe886.netlify.app/",
+      },
+    ],
     technologies: [
       <i className="bx bxl-html5"></i>,
       <i className="bx bxl-css3"></i>,
@@ -299,6 +372,150 @@ const projectsData = [
     description:
       "Esta aplicacion filtra diversos autos por sus caracteristicas.",
     category: "Front",
+    images: ["01_hxq7gf", "02_sebpu4", "03_ctfbvy", "04_eejgzq"],
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/Diego-Nieves26/Filter-Cars--.git",
+      },
+      {
+        name: "Preview",
+        link: "https://elaborate-stroopwafel-f64577.netlify.app",
+      },
+    ],
+    technologies: [
+      <i className="bx bxl-html5"></i>,
+      <i className="bx bxl-css3"></i>,
+      <i className="bx bxl-javascript"></i>,
+      <i className="bx bxs-file-json"></i>,
+    ],
+  },
+  {
+    title: "Frases Aleatorias",
+    img: images.Project09,
+    date: "10/04/2022",
+    description:
+      "Esta aplicacion muestra frases ramdom cada vez que el usuario presione el boton.",
+    category: "Front",
+    images: ["01_j6hfkk", "02_cmw3dt"],
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/Diego-Nieves26/React-Frases-Random--.git",
+      },
+      {
+        name: "Preview",
+        link: "https://peppy-jalebi-89e2bc.netlify.app/",
+      },
+    ],
+    technologies: [
+      <i className="bx bxl-html5"></i>,
+      <i className="bx bxl-css3"></i>,
+      <i className="bx bxl-javascript"></i>,
+      <i className="bx bxs-file-json"></i>,
+      <i className="bx bxl-react"></i>,
+    ],
+  },
+  {
+    title: "Aplicacion del clima",
+    img: images.Project10,
+    date: "10/05/2022",
+    description:
+      "Utilice la API gratuita de Open Weather App, usando el método getCurretPosition() obtuve las coordenadas del usuario. Usando las coordenadas obtenidas las utilicé en la API para obtener la información necesaria. Desarrolle una aplicación que muestre datos del clima, obteniendo de la API los siguientes datos: país, ciudad, icono que describa el clima, la temperatura en grados centígrados, y un botón que cambie la temperatura a grados Fahrenheit.",
+    category: "Front",
+    images: ["02_chykoi", "03_p6nnel", "01_lr9ole"],
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/Diego-Nieves26/React-Weather-App--.git",
+      },
+      {
+        name: "Preview",
+        link: "https://incandescent-cannoli-66ab91.netlify.app/",
+      },
+    ],
+    technologies: [
+      <i className="bx bxl-html5"></i>,
+      <i className="bx bxl-css3"></i>,
+      <i className="bx bxl-javascript"></i>,
+      <i className="bx bxl-react"></i>,
+    ],
+  },
+  {
+    title: "Rick and Morty App",
+    img: images.Project11,
+    date: "29/05/2022",
+    description:
+      "Cree un sitio donde el usuario pueda ver información sobre las ubicaciones de los universos y personajes de “Rick and Morty”. Utilizando la API de The Rick and Morty API para obtener la información nesesaria. Creando asi una app web que muestra los diferentes personajes y universos, con su respectiva informacion",
+    category: "Front",
+    images: [
+      "01_cawkno",
+      "03_oz9us5",
+      "04_x01rp4",
+      "05_wdikmo",
+      "02_puwsay",
+      "06_inzjwu",
+    ],
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/Diego-Nieves26/React-Rick-and-Morty--.git",
+      },
+      {
+        name: "Preview",
+        link: "https://subtle-banoffee-4014e9.netlify.app/",
+      },
+    ],
+    technologies: [
+      <i className="bx bxl-html5"></i>,
+      <i className="bx bxl-css3"></i>,
+      <i className="bx bxl-javascript"></i>,
+      <i className="bx bxl-react"></i>,
+    ],
+  },
+  {
+    title: "Flutter",
+    img: images.Project08,
+    date: "15/08/2021",
+    description:
+      "Esta aplicacion filtra diversos autos por sus caracteristicas.",
+    category: "Front",
+    images: ["01_hxq7gf", "02_sebpu4", "03_ctfbvy", "04_eejgzq"],
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/Diego-Nieves26/Filter-Cars--.git",
+      },
+      {
+        name: "Preview",
+        link: "https://elaborate-stroopwafel-f64577.netlify.app",
+      },
+    ],
+    technologies: [
+      <i className="bx bxl-html5"></i>,
+      <i className="bx bxl-css3"></i>,
+      <i className="bx bxl-javascript"></i>,
+      <i className="bx bxs-file-json"></i>,
+    ],
+  },
+  {
+    title: "Flutter",
+    img: images.Project08,
+    date: "15/08/2021",
+    description:
+      "Esta aplicacion filtra diversos autos por sus caracteristicas.",
+    category: "Front",
+    images: ["01_hxq7gf", "02_sebpu4", "03_ctfbvy", "04_eejgzq"],
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/Diego-Nieves26/Filter-Cars--.git",
+      },
+      {
+        name: "Preview",
+        link: "https://elaborate-stroopwafel-f64577.netlify.app",
+      },
+    ],
     technologies: [
       <i className="bx bxl-html5"></i>,
       <i className="bx bxl-css3"></i>,

@@ -7,6 +7,7 @@ import Logo03 from "./images/logos/logo03.webp";
 import Certificado01 from "./images/certificados/01.webp";
 import Certificado02 from "./images/certificados/02.webp";
 import Certificado03 from "./images/certificados/03.webp";
+import Certificado04 from "./images/certificados/04.webp";
 
 // PROJECTS
 import Project01 from "./images/projects/01.webp";
@@ -91,6 +92,10 @@ export default {
   Certificado03: {
     img: Certificado03,
     info: "Certificado Desarrollo en Flutter",
+  },
+  Certificado04: {
+    img: Certificado04,
+    info: "Certificado De Emulacion No Country",
   },
 
   // PROJECTS

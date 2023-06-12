@@ -575,6 +575,10 @@ const slidesHomeImages = [
     img: images.Certificado03.img,
     alt: images.Certificado03.info,
   },
+  {
+    img: images.Certificado04.img,
+    alt: images.Certificado04.info,
+  },
 ];
 
 const galerySP = [

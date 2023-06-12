@@ -474,53 +474,90 @@ const projectsData = [
     ],
   },
   {
-    title: "Flutter",
-    img: images.Project08,
-    date: "15/08/2021",
+    title: "Pokedex App",
+    img: images.Project12,
+    date: "15/06/2022",
     description:
-      "Esta aplicacion filtra diversos autos por sus caracteristicas.",
+      "Cree una app web con una primera pagina, en la que sólamente hay un input que le preguntará el nombre al usuario. Dicho nombre es almacenado en la store de redux, y será obligatorio para que pueda acceder a las siguientes rutas. La ruta “/pokedex”, se muetra despues de que el usuario ingreso su nombre, la cuál es una ruta protegida que le da un mensaje de bienvenida al usuario utilizando el nombre almacenado en el store, a la vez, listará los pokemones traídos desde la PokeApi. Cada tarjeta, al darle clic llevara a la informacion mas detallada del pokemon de la tarjeta. La ruta “/pokedex” esta paginada. Cuenta con una estiqueta select que filtra los pokemones por especie. Tiene un input para buscar un pokemon en específico por su nombre.",
     category: "Front",
-    images: ["01_hxq7gf", "02_sebpu4", "03_ctfbvy", "04_eejgzq"],
+    images: [
+      "03_lrduxh",
+      "05_erlfqc",
+      "02_hiskib",
+      "01_fpn8ub",
+      "06_qk8sz3",
+      "04_jld4wh",
+    ],
     links: [
       {
         name: "GitHub",
-        link: "https://github.com/Diego-Nieves26/Filter-Cars--.git",
+        link: "https://github.com/Diego-Nieves26/React-Pokedex--.git",
       },
       {
         name: "Preview",
-        link: "https://elaborate-stroopwafel-f64577.netlify.app",
+        link: "https://lustrous-marigold-b9f6ee.netlify.app/",
       },
     ],
     technologies: [
       <i className="bx bxl-html5"></i>,
       <i className="bx bxl-css3"></i>,
       <i className="bx bxl-javascript"></i>,
-      <i className="bx bxs-file-json"></i>,
+      <i className="bx bxl-redux"></i>,
+      <i className="bx bxl-react"></i>,
     ],
   },
   {
-    title: "Flutter",
-    img: images.Project08,
-    date: "15/08/2021",
+    title: "Full CRUD App",
+    img: images.Project13,
+    date: "22/06/2022",
     description:
-      "Esta aplicacion filtra diversos autos por sus caracteristicas.",
-    category: "Front",
-    images: ["01_hxq7gf", "02_sebpu4", "03_ctfbvy", "04_eejgzq"],
+      "Cree una aplicación donde se puedan administrar usuarios a través de un CRUD. Para ello cree mi propia API para consultar, crear, eliminar y actualizar dichos usuarios. La pagina consiste en listar todos los usuarios, mostrando su nombre, apellido, email y fecha de nacimiento. Adicionalmente cada targeta tiene 2 botones, uno para eliminar. Y uno para editar, el cuál pondrá toda la información del usuario seleccionado en un formulario para ejecutar dicha accion. El formulario tambien sirve para crear un nuevo usuario.",
+    category: "Full Stack",
+    images: ["02_t7onga", "01_koq5r8", "03_iif3wo"],
     links: [
       {
         name: "GitHub",
-        link: "https://github.com/Diego-Nieves26/Filter-Cars--.git",
+        link: "https://github.com/Diego-Nieves26/Full-CRUD-App--.git",
       },
       {
         name: "Preview",
-        link: "https://elaborate-stroopwafel-f64577.netlify.app",
+        link: "https://vocal-boba-408f1c.netlify.app/",
       },
     ],
     technologies: [
       <i className="bx bxl-html5"></i>,
       <i className="bx bxl-css3"></i>,
       <i className="bx bxl-javascript"></i>,
-      <i className="bx bxs-file-json"></i>,
+      <i className="bx bxl-redux"></i>,
+      <i className="bx bxl-react"></i>,
+      <i className="bx bxl-nodejs"></i>,
+      <i className="bx bxl-postgresql"></i>,
+    ],
+  },
+  {
+    title: "Portafolio 01",
+    img: images.Project14,
+    date: "10/07/2022",
+    description:
+      "Esta web contiene informacion mia relacionada a la programacion",
+    category: "Front",
+    images: ["01_i4weyj", "02_tvqq7s", "03_gvyy02", "04_ackecg", "05_zj9usb"],
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/Diego-Nieves26/React-Portfolio-01--.git",
+      },
+      {
+        name: "Preview",
+        link: "https://nvs-dlc.netlify.app/",
+      },
+    ],
+    technologies: [
+      <i className="bx bxl-html5"></i>,
+      <i className="bx bxl-css3"></i>,
+      <i className="bx bxl-javascript"></i>,
+      <i className="bx bxl-redux"></i>,
+      <i className="bx bxl-react"></i>,
     ],
   },
 ];
@@ -577,15 +614,15 @@ const regexEmail =
   /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
 
 export {
+  education,
+  emails,
+  galerySP,
   linksNav,
   linksNetwork,
-  emails,
-  sentencesData,
   projectsData,
-  slidesHomeImages,
-  regexEmail,
   ramdomPhrase,
-  education,
+  regexEmail,
+  sentencesData,
   skills,
-  galerySP,
+  slidesHomeImages,
 };

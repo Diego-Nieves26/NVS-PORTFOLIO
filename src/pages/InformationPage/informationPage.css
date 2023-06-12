@@ -101,7 +101,12 @@
 .information__card_img {
   width: 100%;
   min-height: 200px;
-  background-color: #fff;
+  background-image: url("../../assets/images/personal/DN03.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+
+  background-position: center;
   position: relative;
 }
 

@@ -82,10 +82,10 @@ const InformationPage = () => {
         >
           <div>
             <img
-              title={images.DN02.info}
-              alt={images.DN02.info}
+              title={images.DN01.info}
+              alt={images.DN01.info}
               className="float-anim"
-              src={images.DN02.img}
+              src={images.DN01.img}
             />
           </div>
           <h4 className="flex__center">

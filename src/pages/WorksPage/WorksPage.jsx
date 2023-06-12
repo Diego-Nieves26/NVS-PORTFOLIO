@@ -102,7 +102,7 @@ const WorksPage = () => {
             />
             <ReIcon
               iconName="Shape07"
-              initialIndex={12}
+              initialIndex={13}
               totalProyects={projectsData.length}
             />
             <div

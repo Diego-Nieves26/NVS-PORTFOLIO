@@ -42,7 +42,7 @@
   max-width: 700px;
 }
 
-.swiper-pagination {
+.slider_home .swiper-pagination {
   max-width: 100px;
   background-color: var(--tertiary-color);
   padding: 0.5rem 0;
@@ -51,7 +51,7 @@
   border-radius: 10px;
 }
 
-.swiper-pagination-bullet {
+.slider_home .swiper-pagination-bullet {
   background: var(--secondary-color);
 }
 

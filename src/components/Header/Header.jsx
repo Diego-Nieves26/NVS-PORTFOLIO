@@ -21,9 +21,8 @@ const Header = () => {
           <h1>{sentence}</h1>
         </div>
       </article>
-      <figure className="limit__width flex__center">
+      <figure className="limit__width flex__center header__me">
         <img
-          className="header__me"
           src={images.DN01.img}
           alt={images.DN01.info}
           title={images.DN01.info}

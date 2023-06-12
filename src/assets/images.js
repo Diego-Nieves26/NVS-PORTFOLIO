@@ -20,6 +20,9 @@ import Project08 from "./images/projects/08.webp";
 import Project09 from "./images/projects/09.webp";
 import Project10 from "./images/projects/10.webp";
 import Project11 from "./images/projects/11.webp";
+import Project12 from "./images/projects/12.webp";
+import Project13 from "./images/projects/13.webp";
+import Project14 from "./images/projects/14.webp";
 
 // GIF
 import Gif01 from "./other-assets/gif/01.webp";
@@ -134,6 +137,18 @@ export default {
   Project11: {
     img: Project11,
     info: "Rick And Morty APP",
+  },
+  Project12: {
+    img: Project12,
+    info: "Pokedex APP",
+  },
+  Project13: {
+    img: Project13,
+    info: "CRUD APP",
+  },
+  Project14: {
+    img: Project14,
+    info: "Portafolio 01",
   },
 
   // GIF

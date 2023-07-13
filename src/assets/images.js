@@ -8,6 +8,7 @@ import Certificado01 from "./images/certificados/01.webp";
 import Certificado02 from "./images/certificados/02.webp";
 import Certificado03 from "./images/certificados/03.webp";
 import Certificado04 from "./images/certificados/04.webp";
+import Certificado05 from "./images/certificados/05.webp";
 
 // PROJECTS
 import Project01 from "./images/projects/01.webp";
@@ -96,6 +97,10 @@ export default {
   Certificado04: {
     img: Certificado04,
     info: "Certificado De Emulacion No Country",
+  },
+  Certificado05: {
+    img: Certificado05,
+    info: "Certificado De AngularJS",
   },
 
   // PROJECTS

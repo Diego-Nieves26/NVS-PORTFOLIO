@@ -1,10 +1,11 @@
 .header {
   width: 100%;
   height: 110vh;
-  max-height: 1200px;
+  max-height: 700px;
   z-index: var(--z-1);
   position: relative;
   background-color: var(--primary-color);
+  overflow: hidden;
 }
 
 .header > div {
@@ -33,53 +34,52 @@
 
 .header__content > div h1 {
   text-align: center;
-  writing-mode: vertical-lr;
-  /*text-orientation: upright;*/
-  word-spacing: 20px;
-  letter-spacing: 5px;
-  font-size: var(--size-1);
-  display: inline-block;
+  line-height: 65px;
   color: var(--secondary-color);
-}
-
-.header__me {
+  text-shadow: 0 20px 25px #2e2e31, 0 40px 60px #2e2e31;
+  font-size: 70px;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: -3px;
+  word-spacing: 10px;
+  margin: 0;
   position: absolute;
-  bottom: -200px;
-  z-index: var(--z-2);
-  height: calc(100vh + 200px);
-  overflow: hidden;
-  align-items: flex-start !important;
-  max-width: initial !important;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
-.header__me > img {
-  width: 300%;
-  height: 100%;
-  max-width: 650px;
+.header__content > div h1:before,
+.header__content > div h1:after {
+  content: "";
+  padding: 1.2em 0.4em;
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  top: 50%;
+  display: block;
+  border: 15px solid var(--primary-color);
+  transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  animation: 10s infinite alternate ease-in-out tipsy;
 }
 
-@media (min-width: 640px) {
-  .header__content > div {
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 100%;
-    width: 40%;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: center;
-  }
+.header__content > div h1:before {
+  border-color: var(--primary-color) var(--primary-color) rgba(0, 0, 0, 0)
+    rgba(0, 0, 0, 0);
+  z-index: -1;
+}
 
-  .header__content > div h1 {
-    text-align: initial;
-    writing-mode: initial;
-  }
+.header__content > div h1:after {
+  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) var(--primary-color)
+    var(--primary-color);
+  box-shadow: 25px 25px 25px rgba(46, 46, 49, 0.8);
+}
 
-  .header__me {
-    align-items: flex-end !important;
+@keyframes tipsy {
+  0% {
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
   }
-
-  .header__me > img {
-    max-height: 1300px;
+  100% {
+    transform: translateX(-50%) translateY(-50%) rotate(360deg);
   }
 }

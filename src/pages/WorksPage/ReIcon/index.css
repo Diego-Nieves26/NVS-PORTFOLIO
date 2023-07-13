@@ -1,19 +1,19 @@
 .re__icon_container {
   position: absolute;
-  top: -65px;
+  top: -70px;
   background-color: black;
-  width: 45px;
+  width: 40px;
   aspect-ratio: 1;
   border-radius: 50%;
 }
 
 .re__icon_container > img {
-  width: 75%;
+  width: 50%;
 }
 
 .re__icon_container::after {
   content: "";
-  width: 35px;
+  width: 30px;
   aspect-ratio: 1;
   background-color: black;
   clip-path: polygon(50% 100%, 0 0, 100% 0);

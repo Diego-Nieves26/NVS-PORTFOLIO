@@ -13,8 +13,6 @@ const SlideImage = ({ name, proyectId }) => {
     }
   );
 
-  //.resize(fill().width(100).height(150))
-
   return (
     <AdvancedImage
       cldImg={myImage}

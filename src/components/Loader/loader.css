@@ -1,23 +1,6 @@
 .backdrop__loader {
   position: fixed;
   inset: 0;
-  background: rgb(250, 148, 39);
-  background: linear-gradient(
-    140deg,
-    rgba(250, 148, 39, 1) 32%,
-    rgba(0, 0, 0, 1) 65%
-  );
+  background: #000;
   z-index: 100;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.backdrop__loader > img {
-  max-width: 300px;
-}
-
-.backdrop__loader > h1 {
-  font-size: 3.5rem;
-  text-align: center;
-  color: white;
 }

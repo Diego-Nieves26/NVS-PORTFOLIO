@@ -27,6 +27,6 @@
 
 .education__letter p {
   font-size: 14px;
-  color: #b5b5b5;
+  color: var(--tertiary-color);
   padding: 10px 0 10px 20px !important;
 }

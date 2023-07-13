@@ -1,5 +1,3 @@
-import React from "react";
-import images from "../../assets/images";
 import useLocales from "../../hooks/useLocales";
 
 // CSS
@@ -21,13 +19,6 @@ const Header = () => {
           <h1>{sentence}</h1>
         </div>
       </article>
-      <figure className="limit__width flex__center header__me">
-        <img
-          src={images.DN01.img}
-          alt={images.DN01.info}
-          title={images.DN01.info}
-        />
-      </figure>
     </header>
   );
 };

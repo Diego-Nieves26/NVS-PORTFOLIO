@@ -30,7 +30,7 @@
 }
 
 .information__part_one > div img {
-  max-width: 440px;
+  max-width: 240px;
 }
 
 .information__part_one > h4 {
@@ -180,6 +180,10 @@
 }
 
 @media (min-width: 640px) {
+  .information__part_one > div img {
+    max-width: 340px;
+  }
+
   .information__part_four > h6 {
     font-size: 4rem;
   }
@@ -197,6 +201,9 @@
     top: 0;
     right: -100%;
     left: auto;
+    display: flex;
+    align-items: center;
+    height: 100%;
   }
 
   .information__content {

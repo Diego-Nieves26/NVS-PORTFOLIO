@@ -2,14 +2,14 @@ import images from "../../../assets/images";
 import "./index.css";
 
 const calculatePosition = (initialIndex, totalProyects) => {
-  const result = (100 / totalProyects) * (initialIndex - 1);
-  return `calc(${result}% + 20px)`;
+  const result = Math.round((100 / totalProyects) * (initialIndex - 1));
+  return `calc(${result}%)`;
 };
 
 const ReIcon = ({ iconName, initialIndex, totalProyects }) => {
   const left =
     initialIndex == 1
-      ? "-20px"
+      ? "-15px"
       : calculatePosition(initialIndex, totalProyects);
 
   return (
